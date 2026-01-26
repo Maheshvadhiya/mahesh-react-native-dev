@@ -1,4 +1,4 @@
-@import '../../../styles/keyframes';
+@use '../../../styles/keyframes' as *;
 
 .content {
   max-width: 1440px;
@@ -11,7 +11,7 @@
   align-self: center;
 }
 
-.header {}
+// .header {}
 
 .title {
   padding-left: .2rem;
