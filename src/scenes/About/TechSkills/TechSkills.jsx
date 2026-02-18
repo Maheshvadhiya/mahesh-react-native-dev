@@ -1,12 +1,9 @@
-import { BsTerminalFill } from '@react-icons/all-files/bs/BsTerminalFill';
 import { DiGit } from '@react-icons/all-files/di/DiGit';
 import { DiJavascript1 } from '@react-icons/all-files/di/DiJavascript1';
 import { DiReact } from '@react-icons/all-files/di/DiReact';
-import { DiSwift } from '@react-icons/all-files/di/DiSwift';
 import { SiExpo } from '@react-icons/all-files/si/SiExpo';
 import { SiFirebase } from '@react-icons/all-files/si/SiFirebase';
 import { SiJest } from '@react-icons/all-files/si/SiJest';
-import { SiKotlin } from '@react-icons/all-files/si/SiKotlin';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
 import { SiSocketDotIo } from '@react-icons/all-files/si/SiSocketDotIo';
 import { SiTypescript } from '@react-icons/all-files/si/SiTypescript';
@@ -24,12 +21,6 @@ const TechSkills = () => {
       <li className={s.techIcon}>
         <DiJavascript1 />
       </li>
-      {/* <li className={s.techIcon}>
-        <DiSwift />
-      </li> */}
-      {/* <li className={s.techIcon}>
-        <SiKotlin />
-      </li> */}
       <li className={s.techIcon}>
         <SiRedux />
       </li>
@@ -48,9 +39,6 @@ const TechSkills = () => {
       <li className={s.techIcon}>
         <SiJest />
       </li>
-      {/* <li className={s.techIcon}>
-        <BsTerminalFill />
-      </li> */}
     </ul>
   );
 };

@@ -16,7 +16,7 @@ const AboutTextCard = () => {
         </span>{' '}
         working at{' '}
         <a className={s.purple} href='https://www.droptechnolab.com/' target='_blank'>
-          DropTechnolab Private Limited
+          Drop Technolab Private Limited
         </a>
         , building scalable and user-friendly mobile applications
         using React Native.
