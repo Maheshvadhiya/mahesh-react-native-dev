@@ -19,8 +19,8 @@ const data = [
       '#react-navigation',
       '#react-native-reanimated',
       '#payments',
-      '#lottie',
       '#firebase-push-notification',
+      '#google-maps',
     ],
   },
   {
@@ -43,9 +43,9 @@ const data = [
       '#redux',
       '#react-native-reanimated',
       '#payments',
-      '#lottie',
       '#firebase-push-notification',
-      '#amenity-booking'
+      '#amenity-booking',
+      '#google-maps',
     ],
   },
   {
@@ -70,13 +70,35 @@ const data = [
       '#CCAVANUE'
     ],
   },
+  // {
+  //   id: '4',
+  //   title: 'Inventory Management',
+  //   description:
+  //     'A complete inventory solution with secure login, stock alerts, and sales/purchase analytics. Built Item Master with pagination, filtering, sorting, and bulk actions. Implemented Category, Warehouse, Project, and Role Management with full CRUD. Added multilingual support (EN/HI/GU), detailed reports, profile settings, and customizable fields for scalable inventory operations.',
+  //   image: {
+  //     src: 'project-images/invsys.jpg',
+  //     placeholderSrc:
+  //       'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+  //   },
+  //   links: {
+  //     site: '',
+  //   },
+  //   technologies: [
+  //     '#react-native-cli',
+  //     '#typescript',
+  //     '#react-navigation',
+  //     '#zuatand',
+  //     '#i18next',
+  //     '#google-maps',
+  //   ],
+  // },
   {
-    id: '4',
-    title: 'Inventory Management',
+    id: '5',
+    title: 'Tennis Scoring Board',
     description:
-      'A complete inventory solution with secure login, stock alerts, and sales/purchase analytics. Built Item Master with pagination, filtering, sorting, and bulk actions. Implemented Category, Warehouse, Project, and Role Management with full CRUD. Added multilingual support (EN/HI/GU), detailed reports, profile settings, and customizable fields for scalable inventory operations.',
+      'Developing and maintaining cross-platform mobile applications.Integrating REST APIs, Firebase services, and payment gateways. Managing state using Redux and Zustand. Publishing and maintaining apps on Play Store and App Store. Collaborating with backend and UI/UX teams for smooth delivery.',
     image: {
-      src: 'project-images/invsys.jpg',
+      src: 'project-images/tennis.jpeg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -84,61 +106,13 @@ const data = [
       site: '',
     },
     technologies: [
+      '#react-native-cli',
       '#typescript',
-      '#react-native',
-      '#mobx-keystone',
-      '#i18next',
-      '#firebase-analytics',
-      '#google-maps',
+      '#react-navigation',
+      '#zuatand',
+      '#Firebase-realtime-database'
     ],
   },
-  // {
-  //   id: '5',
-  //   title: 'Apiko Marketplace',
-  //   description:
-  //     'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
-  //   image: {
-  //     src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
-  //     placeholderSrc:
-  //       'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-  //   },
-  //   links: {
-  //     repo: 'https://github.com/vsnaichuk/apiko-marketplace-app',
-  //   },
-  //   technologies: [
-  //     '#react',
-  //     '#redux',
-  //     '#socket.io',
-  //     '#scss',
-  //     '#formik',
-  //     '#react-window',
-  //     '#restapi',
-  //   ],
-  // },
-  // {
-  //   id: '6',
-  //   title: 'eCommerce Mobile App',
-  //   description:
-  //     'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
-  //   image: {
-  //     src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
-  //     placeholderSrc:
-  //       'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-  //   },
-  //   links: {
-  //     repo: 'https://github.com/vsnaichuk/RN-shop',
-  //   },
-  //   technologies: [
-  //     '#react-native',
-  //     'expo',
-  //     '#redux',
-  //     '#redux-toolkit',
-  //     '#react-navigation',
-  //     '#nodejs',
-  //     '#express',
-  //     '#mongodb',
-  //   ],
-  // },
 ];
 
 export default data;
